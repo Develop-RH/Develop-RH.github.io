@@ -24,7 +24,7 @@ ul {
 }
 
 body > header {
-    background-color: orange;  
+    background-color: lightblue;  
     display: flex;
     height: 12vh;
     align-items: center;
@@ -60,7 +60,6 @@ body > main > article {
 
 #main-content {
     display: flex;
-    justify-content: space-around
 }
 
 #main-content > div {
@@ -77,13 +76,34 @@ h2 {
 }
 
 body > footer {
-    background-color: orange;  
+    background-color: lightblue;  
     display: flex;
 }
 
 img {
     border-radius: 60%;
 }
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.destination {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #fff;
+    width: 300px;
+    text-align: center;
+}
+
+.destination img {
+    max-width: 100%;
+    height: auto;}
 
 #footer-ul {
     display: flex;
@@ -98,3 +118,11 @@ img {
     color: white;
     text-decoration: none;
 }
+
+#profilePicture {
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #333; /* Adds a border around the image */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    max-width: 100%; /* Makes sure the image is responsive */
+    height: auto;}
